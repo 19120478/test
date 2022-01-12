@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone'){
             steps{
-                git "https://github.com/19120478/mmtnc-devops.git"
+                sh "git clone https://github.com/19120478/mmtnc-devops.git"
             }
         }
     }
