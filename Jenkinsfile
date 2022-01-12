@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone'){
             steps{
-                bat "rmdir /s /q test mmtnc-devops"
+                //bat "rmdir /s /q test mmtnc-devops"
                 bat "git clone https://github.com/19120478/mmtnc-devops.git"
             }
         }
